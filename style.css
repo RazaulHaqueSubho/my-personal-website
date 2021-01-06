@@ -2,13 +2,32 @@ h1{
     font-size: 40px;
     font-family: 'Alex Brush', cursive;
     font-family: 'Special Elite', cursive;
+    margin: 0;
+    display: inline-block;
 
 }
+h2{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Special Elite', cursive;
+    margin: 0;
+    display: inline-block;    
+}
 
+
+
+h3{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Special Elite', cursive;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+}
 body{
 font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 1px;
-margin: 5px;
+margin: 0;
 }
 
 .color-highlighter{
@@ -21,21 +40,102 @@ background-color: crimson;
 color: whitesmoke;
 border-radius: 5px;
 padding: 10px 20px;
+margin: 0;
+display: inline-block;
+}
 
-
+.single-area{
+    border-radius: 5px;
+    height: 40%;
+    float: left;
+    width: 31.33%;
+    
 }
 
 .half-width{
     float: left;
     width: 40%;
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 2%;
+    margin-right: 2%;
+    
 }
 .half-width img{
-    width: 90%;
+    width: 100%;
+
 }
 
 p{
     text-align: justify;
-    padding: 2%;
+    padding-bottom: 2%;
+
 }
+section{
+    height: 500px;
+    padding-bottom: 150px;
+ 
+}
+
+.lastet-project{
+    justify-content: center;
+    text-align: center;
+}
+.carryon{
+    display: inline-flex;
+    
+}
+.title-lastest{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+.fa-download{
+    color: white;
+}
+
+.single-area{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+.experience{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: thistle;
+}
+#java-developer{
+    border-left: 7px solid;
+
+}
+#student-assistant{
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
+}
+.new-section{
+    background-image: url(shapes/Group_33094_1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.center {
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    
+  }
+.button-style2{
+text-decoration: none;
+background-color: crimson;
+color: whitesmoke;
+border-radius: 5px;
+padding: 10px 10px;
+margin: 200px;
+display: inline-block;
+text-align: center;
+float:none;
+}
+
+  
