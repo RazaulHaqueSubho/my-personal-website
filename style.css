@@ -1,0 +1,41 @@
+h1{
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Special Elite', cursive;
+
+}
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 1px;
+margin: 5px;
+}
+
+.color-highlighter{
+color: coral;
+}
+
+.button-style{
+text-decoration: none;
+background-color: crimson;
+color: whitesmoke;
+border-radius: 5px;
+padding: 10px 20px;
+
+
+}
+
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 90%;
+}
+
+p{
+    text-align: justify;
+    padding: 2%;
+}
